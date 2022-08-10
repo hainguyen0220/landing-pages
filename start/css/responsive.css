@@ -1,0 +1,346 @@
+/* ------------------  responsive 414px   ----------------- */
+
+@media(max-width: 414px){
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* ------------------  responsive 574px   ----------------- */
+@media(min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+    .d-sm-flex {
+        display: flex;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-sm-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-sm-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+/* ------------------  responsive 768px   ----------------- */
+
+/* ------------------  responsive 768px   ----------------- */
+@media(min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .d-md-flex {
+        display: flex;
+    }
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-md-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.333333%;
+    }
+    .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .col-md-7{
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .navgition .navbar .navbar-collapse {
+        position: absolute;
+        top: 116%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 8;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+        
+    }
+    .navgition .navbar .navbar-social {
+        position: absolute;
+        right: 60px;
+        top: 7px;
+    }
+    .header-hero .header-content {
+        padding-top: 120px;
+    }
+    .header-hero {
+        height: 650px;
+    }
+    .header-hero .header-content .header-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header-hero .header-content .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .services-image .image {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .services-image {
+        position: relative;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 16px;
+        margin: 0 auto;
+    }
+    .call-action-image {
+        position: relative;
+        width: 100%;
+    }
+    .call-action-content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .call-action-content .call-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .call-action-content .call-newsletter button {
+        position: relative;
+        right: auto;
+        margin-top: 15px;
+        background-color: #fff;
+        color: #0067f4;
+    }
+    .header-hero {
+        height: 650px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .navgition .navbar .navbar-nav .nav-item a {
+        padding: 10px 0;
+        display: block;
+    }
+    .main-btn {
+        font-size: 14px;
+        padding: 0 20px;
+        line-height: 40px;
+    }
+    .section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .services-area,
+    .pricing-area,
+    .testimonial-area,
+    .testimonial-area{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .services-content .services-content {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    
+}
+@media (max-width: 767px) {
+    .mobile {
+        display:block;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .call-action-image {
+        position: relative;
+        width: 100%;
+    }
+    .services-image {
+        position: relative;
+        width: 720px;
+        margin: 0 auto;
+    }
+    .services-image .image {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .header-hero {
+        height: 700px;
+    }
+    .header-hero .header-content {
+        padding-top: 130px;
+    }
+    .services-area, .contact-area, .testimonial-area, .pricing-area{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-widget {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+}
+
+
+@media(max-width: 740px){
+    .navbar-nav {
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navgition .navbar .navbar-collapse {
+        position: absolute;
+        top: 116%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 8;
+        padding: 10px 0;
+        
+    }
+    .navgition .navbar .navbar-nav .nav-item a {
+        padding: 10px 0;
+        display: block;
+    }
+    .ipad-mini{
+        display: flex;
+        align-items: center;
+        padding-left: 19px;
+    }
+    
+}
+/* --------------------------900px---------------------- */
+@media (max-width: 900px){
+    .mfp-container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+}
+/* ------------------  responsive 992px   ----------------- */
+@media (max-width: 992px){
+    .navgition .navbar .navbar-nav .nav-item a::before,
+    .navgition .navbar .navbar-nav .nav-item a::after{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {   
+        display: flex;
+        flex-basis: auto;
+    }
+    .navbar-expand-lg {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+    
+    .d-lg-flex{
+        display: flex;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .col-lg-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-lg-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .single-pricing .pricing-header .price {
+        font-size: 50px;
+        margin-top: 16px;
+    }
+    .single-pricing.enterprise .pricing-flower {
+        width: 110px;
+    }
+    .single-pricing .pricing-list ul li {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .services-image {
+        width: 34%;
+    }
+}
+/* ------------------  responsive 1200px   ----------------- */
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1200px){
+    .col-xl-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+/* ------------------  responsive mobile   ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
